@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name="mi-benchmarks",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Chedy Smaoui",
+    author_email="chedysmaoui.pro@gmail.com",
     description="Synthetic data generation with known mutual information",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/mi-benchmarks",
+    url="https://github.com/ChedySmaoui/mi-benchmarks",
     packages=find_packages(exclude=["tests", "examples"]),
     python_requires=">=3.8",
     install_requires=[
